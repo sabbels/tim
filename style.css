@@ -1,0 +1,40 @@
+header {
+    background-color: lightgreen;
+}
+
+main {
+    background-color: pink;
+}
+
+footer {
+    background-color: aqua;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+nav {
+    background-color: #071c2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen (max-width 768px) {
+    #browse {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+}
+
+#navbar1 {
+    display: flex;
+
+}
+
