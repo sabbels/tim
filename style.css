@@ -10,18 +10,19 @@ footer {
     background-color: aqua;
 }
 
-ul {
-    display: inline-block;
-    list-style: none;
-}
+
 nav {
     background-color: #071c2e;
     color: white;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 }
 
+ul {
+    list-style: none;
+    display: inline-flex;
 
+}
 
 @media screen (max-width 768px) {
     #browse {
